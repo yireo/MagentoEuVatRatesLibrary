@@ -7,7 +7,7 @@ This library offers a client to load EU tax rates via a [feed](https://github.co
 ## Installation
 To install this library, use composer:
 
-    composer require yireo/magento-eu-vat-rates-library:dev-master
+    composer require yireo/magento-eu-vat-rates-library
 
 ## Testing
 This library ships with some unit tests. However, these tests rely on an internal Yireo library to validate actual rates.
