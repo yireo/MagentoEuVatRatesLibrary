@@ -1,0 +1,21 @@
+{
+    "name": "yireo/magento-eu-vat-rates-library",
+    "type": "library",
+    "license": "GPL-3.0",
+    "homepage": "https://www.yireo.com/",
+    "description": "Load EU tax rates from https://github.com/yireo/Magento_EU_Tax_Rates",
+    "authors": [
+        {
+            "name": "Jisse Reitsma (Yireo)",
+            "email": "jisse@yireo.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "phpunit/phpunit": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {"Yireo\\MagentoEuVatRates\\": ""}
+    }
+}
