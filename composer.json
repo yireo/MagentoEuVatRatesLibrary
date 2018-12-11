@@ -12,8 +12,11 @@
     ],
     "require": {
         "php": ">=7.0.0",
-        "guzzlehttp/guzzle": "^6.3",
-        "phpunit/phpunit": "^7.2"
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2",
+        "yireo/yireo-eu-vat-rates-library": "*"
     },
     "autoload": {
         "psr-4": {"Yireo\\MagentoEuVatRates\\": ""}
